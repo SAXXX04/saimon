@@ -1,0 +1,173 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; /* Fondo blanco */
+    color: #111111;
+}
+
+/* Encabezado */
+header {
+    background-color: #232f3e; /* Azul oscuro de Amazon */
+    padding: 15px;
+    color: white;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin-right: 30px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: white; /* Texto blanco */
+    font-weight: bold;
+}
+
+.logo img {
+    width: 150px; /* Ajuste del tamaño del logo */
+    height: auto;
+    margin-top: 10px;
+}
+
+.search-bar {
+    margin: 20px auto;
+    width: 50%;
+    text-align: center;
+}
+
+.search-bar input[type="search"] {
+    width: 70%;
+    height: 35px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search-bar button {
+    width: 20%;
+    height: 35px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff9900; /* Naranja de Amazon */
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #e68a00;
+}
+
+/* Cuerpo principal */
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f3f3f3;
+}
+
+.left-frame, .center-frame, .right-frame {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.left-frame {
+    width: 20%;
+}
+
+.center-frame {
+    width: 55%;
+}
+
+.right-frame {
+    width: 20%;
+}
+
+/* Estilo para Categorías y Recomendaciones */
+.left-frame ul li, .right-frame ul li {
+    list-style-type: none;
+    margin: 10px 0;
+}
+
+.left-frame ul li a, .right-frame ul li a {
+    display: block;
+    padding: 10px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #232f3e; /* Azul oscuro de Amazon */
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.left-frame ul li a:hover, .right-frame ul li a:hover {
+    background-color: #ff9900; /* Naranja de Amazon */
+    color: white; /* Texto blanco cuando se pasa el cursor */
+}
+
+/* Alineación y espaciado de listas */
+.left-frame ul, .right-frame ul {
+    padding: 0;
+}
+
+.left-frame ul li, .right-frame ul li {
+    margin-bottom: 15px;
+}
+
+/* Oferta */
+.offer {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+}
+
+.offer img {
+    width: 100%; /* Mantiene el ancho completo del contenedor */
+    height: 300px; /* Ajusta la altura a 180px */
+    object-fit: cover;
+    border-radius: 5px 5px 0 0;
+}
+
+.offer button {
+    background-color: #ff9900;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.offer button:hover {
+    background-color: #e68a00;
+}
+
+/* Pie de página */
+footer {
+    background-color: #232f3e;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
